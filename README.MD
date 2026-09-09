@@ -46,19 +46,19 @@ node console.js --read-logs
 
 ## Login
 ## Método,Ruta,Descripción,Requiere Token
-POST,/api/register, Registrar un nuevo usuario, Sin Token
-POST,/api/login, Iniciar sesión y obtener JWT, Sin Token
+- POST,/api/register, Registrar un nuevo usuario, Sin Token
+- POST,/api/login, Iniciar sesión y obtener JWT, Sin Token
 
 ## Usuarios
 ## Método,Ruta,Descripción,Requiere Token
-GET,/api/usuarios, Obtener lista de usuarios, Token
-PUT,/api/usuarios/:id, Actualizar datos de usuario, Token
-DELETE,/api/usuarios/:id, Eliminar usuario, Token
-POST,/api/usuarios/avatar, Subir foto de perfil (multipart/form-data), Con Token
+- GET,/api/usuarios, Obtener lista de usuarios, Token
+- PUT,/api/usuarios/:id, Actualizar datos de usuario, Token
+- DELETE,/api/usuarios/:id, Eliminar usuario, Token
+- POST,/api/usuarios/avatar, Subir foto de perfil (multipart/form-data), Con Token
 
 ## Productos
 ## Método,Ruta,Descripción,Requiere Token
-GET,/api/productos, Obtener catálogo de productos, Sin Token
-POST,/api/productos, Crear un producto, Token
-PUT,/api/productos/:id, Actualizar un producto, Token
-DELETE,/api/productos/:id, Eliminar un producto, Token
+- GET,/api/productos, Obtener catálogo de productos, Sin Token
+- POST,/api/productos, Crear un producto, Token
+- PUT,/api/productos/:id, Actualizar un producto, Token
+- DELETE,/api/productos/:id, Eliminar un producto, Token
