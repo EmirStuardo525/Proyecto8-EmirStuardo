@@ -34,7 +34,7 @@ node console.js --list-products
 # Agregar un nuevo producto (Nombre, Precio, Stock)
 node console.js --add-product "Laptop Pro" 1200 15
 
-# Crear un usuario con contraseña cifrada (bcrypt)
+# Crear un usuario con contraseña 
 node console.js --add-user "Admin" "admin@correo.com" "secreto123"
 
 # Ver el registro de auditoría (logs)
@@ -54,7 +54,7 @@ node console.js --read-logs
 - GET,/api/usuarios, Obtener lista de usuarios, Token
 - PUT,/api/usuarios/:id, Actualizar datos de usuario, Token
 - DELETE,/api/usuarios/:id, Eliminar usuario, Token
-- POST,/api/usuarios/avatar, Subir foto de perfil (multipart/form-data), Con Token
+- POST,/api/usuarios/avatar, Subir foto de perfil (multipart/form-data), Token
 
 ## Productos
 ## Método,Ruta,Descripción,Requiere Token
