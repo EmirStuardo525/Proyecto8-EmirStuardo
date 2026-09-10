@@ -26,23 +26,37 @@ API RESTful y catálogo web desarrollado en **Node.js** con **Express**, **Seque
 - **Gestión de Archivos:** Multer
 - **Variables de Entorno:** `dotenv`
 
-## Uso de consola
+# Ejecutar Proyecto
 
-# Listar todos los productos en formato tabla
+1. Clonar e instalar
+- git clone [https://github.com/EmirStuardo525/Proyecto8-EmirStuardo.git]
+- cd Modulo8-Proyecto
+- npm install
+
+2. Configurar Variables de Entorno
+- Editar el archivo .env
+
+3. Ejecución del Proyecto
+- npm start
+- npm run dev (Modo de pruebas)
+
+# Uso de consola
+
+1. Listar todos los productos en formato tabla
 node console.js --list-products
 
-# Agregar un nuevo producto (Nombre, Precio, Stock)
+2. Agregar un nuevo producto (Nombre, Precio, Stock)
 node console.js --add-product "Laptop Pro" 1200 15
 
-# Crear un usuario con contraseña 
+3. Crear un usuario con contraseña 
 node console.js --add-user "Admin" "admin@correo.com" "secreto123"
 
-# Ver el registro de auditoría (logs)
+4. Ver el registro de auditoría (logs)
 node console.js --read-logs
 
 
-## Rutas de la API
 
+# Rutas de la API
 
 ## Login
 ## Método,Ruta,Descripción,Requiere Token
