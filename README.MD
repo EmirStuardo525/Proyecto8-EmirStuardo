@@ -74,4 +74,4 @@ node console.js --read-logs
 - GET,/api/productos, Obtener catálogo de productos, Sin Token
 - POST,/api/productos, Crear un producto, Token
 - PUT,/api/productos/:id, Actualizar un producto, Token
-- DELETE,/api/productos/:id, Eliminar un producto, Token
+- DELETE,/api/productos/:id, Eliminar un producto, Token 
