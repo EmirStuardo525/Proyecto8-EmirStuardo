@@ -55,7 +55,6 @@ node console.js --add-user "Admin" "admin@correo.com" "secreto123"
 node console.js --read-logs
 
 
-
 # Rutas de la API
 
 ## Login
